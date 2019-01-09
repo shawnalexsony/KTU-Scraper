@@ -1,0 +1,20 @@
+{
+  "name": "ktu-scraper",
+  "version": "1.0.0",
+  "description": "email alert by scraping ktu site for notifications",
+  "main": "ktuscraper.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "node-schedule": "^1.3.1",
+    "nodemailer": "^5.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ktuscraper.js"
+  },
+  "author": "shawn",
+  "license": "ISC"
+}
